@@ -1,1 +1,1 @@
-export * from "./mongo";
+export { connectMongo } from "./mongo";

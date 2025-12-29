@@ -1,2 +1,2 @@
-export * from "./mongo";
+export { connectMongo } from "./mongo";
 //# sourceMappingURL=index.d.ts.map
