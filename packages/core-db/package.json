@@ -1,0 +1,13 @@
+{
+  "name": "@task-master/core-db",
+  "version": "0.1.0",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.0"
+  }
+}

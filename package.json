@@ -1,0 +1,7 @@
+{
+  "name": "task-master-core-be",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
