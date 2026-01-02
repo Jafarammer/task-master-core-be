@@ -1,24 +1,16 @@
 {
   "name": "@task-master/core-be",
   "version": "0.1.0",
-  "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "prepare": "pnpm build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.18.1",
-  "devDependencies": {
-    "typescript": "5.4.5"
+    "build": "tsc"
   },
   "dependencies": {
-    "mongoose": "8.1.1"
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.27",
+    "typescript": "5.4.5"
   }
 }
